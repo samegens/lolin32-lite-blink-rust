@@ -31,6 +31,16 @@ cd lolin32-blink-rust
 . ~/export-esp.sh
 ```
 
+## Build and run
+
+Connect the Lolin32 Lite to an USB port.
+
+```bash
+cargo run
+```
+
+Toolset will do the rest automatically.
+
 ## Improve upload speed
 
 In .cargo/config.toml, change the runner line to:
