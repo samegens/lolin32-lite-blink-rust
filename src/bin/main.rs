@@ -18,8 +18,6 @@ fn main() -> ! {
     let peripherals = esp_hal::init(config);
     let mut led = Output::new(peripherals.GPIO22, Level::Low, Default::default());
 
-    panic!("testing!");
-    
     loop {
         led.toggle();
         let delay_start = Instant::now();
