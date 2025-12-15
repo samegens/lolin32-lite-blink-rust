@@ -1,5 +1,9 @@
 # Blinking LED on Lolin32 Lite using Rust
 
+This project shows a 'hello world' (ie. blinking LED) program on a Lolin32 Lite compiled in Rust.
+It was created with esp-generate and adjusted to be a more developer-friendly base for other projects:
+println and stack traces where added.
+
 ## Setup
 
 ```bash
@@ -35,7 +39,7 @@ In .cargo/config.toml, change the runner line to:
 runner = "espflash flash --monitor --chip esp32 --baud 921600"
 ```
 
-This will reduce upload time.
+This will reduce upload time by about a factor four. If upload fails, remove the increased baud rate.
 
 ## Build and run project
 
@@ -47,4 +51,4 @@ This will build and upload the binary and display the output when running.
 
 ## What if I have a regular Lolin32?
 
-Then change the port to GPIO5.
+Then change the port to GPIO5. It should work then, but I have only a Lite version, so I can't test it.
