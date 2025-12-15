@@ -20,7 +20,7 @@ cargo install esp-generate --locked
 ## Create project
 
 ```bash
-esp-generate --chip esp32 -o alloc -o wifi -o ble-bleps -o unstable-hal --headless lolin32-lite-blink-rust
+esp-generate --chip esp32 --headless lolin32-lite-blink-rust
 cd lolin32-blink-rust
 
 # Don't forget this (needed to use the correct tools for ESP32 builds):
