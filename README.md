@@ -31,6 +31,10 @@ cd lolin32-blink-rust
 . ~/export-esp.sh
 ```
 
+## Modify the generated project
+
+I added the esp-println and esp-backtrace crates to make debugging easier and added code to main.rs to make the internal LED blink.
+
 ## Build and run
 
 Connect the Lolin32 Lite to a USB port.
