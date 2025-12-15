@@ -33,7 +33,7 @@ cd lolin32-blink-rust
 
 ## Build and run
 
-Connect the Lolin32 Lite to an USB port.
+Connect the Lolin32 Lite to a USB port.
 
 ```bash
 cargo run
