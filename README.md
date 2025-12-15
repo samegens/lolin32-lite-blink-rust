@@ -4,7 +4,7 @@ This project shows a 'hello world' (ie. blinking LED) program on a Lolin32 Lite 
 It was created with esp-generate and adjusted to be a more developer-friendly base for other projects:
 println and stack traces where added.
 
-## Setup
+## Setup (on Linux)
 
 ```bash
 cargo install espup
